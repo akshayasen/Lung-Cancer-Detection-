@@ -1,0 +1,12 @@
+Dataset: https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images 
+
+Contains lung images categorized into three classes:
+lung_aca: Adenocarcinoma
+lung_n: Normal tissue
+lung_scc: Squamous cell carcinoma
+Features high-resolution medical images suitable for deep learning.
+
+Images are preprocessed through:
+Resizing (e.g., 224x224 pixels).
+Normalization for consistent pixel value ranges.
+Augmentation (rotation, flipping, scaling) to enhance model robustness.
